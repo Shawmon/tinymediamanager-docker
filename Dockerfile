@@ -5,6 +5,7 @@
 #FROM jlesage/baseimage-gui:alpine-3.8
 #FROM jlesage/baseimage-gui:alpine-3.5-glibc-v3.3.4
 FROM jlesage/baseimage-gui:alpine-3.8-glibc
+ENV LANG=C.UTF-8
 # Define software download URLs.
 ARG TMM_URL=https://release.tinymediamanager.org/v3/dist/tmm_3.0_linux.tar.gz
 ARG ORACLEJAVAJRE_URL=http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/server-jre-8u131-linux-x64.tar.gz
